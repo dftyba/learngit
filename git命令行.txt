@@ -1,0 +1,14 @@
+git init  //把当前目录变成git仓库
+git add readme.txt //把文件添加到仓库
+git commit -m "文件版本说明"//把文件同步到库
+git status //查看git状态
+git diff readme.txt //查看文件变化
+git log
+git log --pretty=oneline
+git reflog //查看历史版本
+git reset --hard HEAD^ //回退一个版本
+git reset --hard 368164 //回退到固定版本号
+git checkout -- readme.txt //把readme.txt文件在工作区的修改全部撤销
+git reset HEAD readme.txt //可以把暂存区的修改撤销掉（unstage），重新放回工作区
+git re test.txt //从版本库中删除该文件
+git checkout --test.txt //地把误删的文件恢复到最新版本
