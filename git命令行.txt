@@ -10,5 +10,5 @@ git reset --hard HEAD^ //回退一个版本
 git reset --hard 368164 //回退到固定版本号
 git checkout -- readme.txt //把readme.txt文件在工作区的修改全部撤销
 git reset HEAD readme.txt //可以把暂存区的修改撤销掉（unstage），重新放回工作区
-git re test.txt //从版本库中删除该文件
-git checkout --test.txt //地把误删的文件恢复到最新版本
+git rm test.txt //从版本库中删除该文件
+git push origin master推送最新修改
